@@ -37,7 +37,7 @@ putcharloop:
 	jmp putcharloop
 
 finish:
-	call water
+	call while_c
 	hlt
 	mov al,0x31
 	int 0x10

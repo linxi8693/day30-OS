@@ -1,4 +1,4 @@
-void water()
+void while_c()
 {
  while(1);
 }
